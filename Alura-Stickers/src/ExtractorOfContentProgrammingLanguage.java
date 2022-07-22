@@ -14,7 +14,7 @@ public class ExtractorOfContentProgrammingLanguage implements ExtractorOfContent
         List<Content> contents = new ArrayList<>();
         
         for(Map<String, String> item: listOfData){
-            String imageUrl = item.get("url");
+            String imageUrl = item.get("image");
             String title = item.get("title");
             Content content = new Content(title,imageUrl);
             contents.add(content);
