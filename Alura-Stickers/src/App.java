@@ -5,7 +5,7 @@ import java.util.List;
 public class App {
     public static void main(String[] args) throws Exception {
 
-        String urlApi = "https://api.nasa.gov/planetary/apod?api_key=5wyZf49PBeVqIXIll0lKlfq2rjdlxTnk4Jpln5BU&start_date=2022-07-01&end_date=2022-07-20";
+        String urlApi = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2022-07-01&end_date=2022-07-20";
         // String urlApi = "https://api.mocki.io/v2/549a5d8b";
         // String urlApi = "http://localhost:8080/languages";
 
